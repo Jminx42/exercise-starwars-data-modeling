@@ -1,5 +1,5 @@
 <!--hide-->
-# StarWars blog database
+# Rick and Morty API database
 <!--endhide-->
 
 **Important**: To do this activity, you need to `fork` [this repo](https://github.com/breatheco-de/exercise-starwars-data-modeling) into your **Github** account and then open the forked repo on Codespaces (recommended) or Gitpod.
@@ -8,7 +8,7 @@ Inside the `src/models.py` file you will find a couple of classes describing an 
 
 Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI6lqHOVHic](https://www.youtube.com/watch?v=UI6lqHOVHic)
 
-We are going to be creating the Entity Relationship Diagram for your StarWars Blog Database, a very similar diagram to this one:
+We are going to be creating the Entity Relationship Diagram for your Rick and Morty API Database, a very similar diagram to this one (using the StarWars Blog Database):
 
 ![Starwars Diagram](https://github.com/breatheco-de/exercise-starwars-data-modeling/blob/master/assets/example.png?raw=true)
 [Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
@@ -33,9 +33,9 @@ Your Job is to update the `src/models.py` file with the code needed to replicate
 The project is using the SQLAlchemy Python library to generate the database.
 
 - Your project must have a table `User` that will represent your blog users.
-- Your blog users will be able to login and save their favorite planets and characters.
+- Your blog users will be able to login and save their favorite planets, episodes and characters.
 - The database should store the user favorites.
-- The database should store characters and planets.
+- The database should store characters, episodes and planets.
 - What other tables do you think a blog like this might have?
 - What properties should go inside the user? or inside the Character or Favorite table?
 - What are the relationships between those tables?
